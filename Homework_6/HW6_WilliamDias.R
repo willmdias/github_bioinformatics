@@ -4,6 +4,7 @@ pacman::p_load(pacman, msa, tidyr, dplyr, genepop, PopGenome, BiocManager,
                GenomicAlignments, r3dmol)
 #This is how I was taught to do this in my Biological Statistics class. If you'd 
 #prefer me to use library() for all packages separately, please let me know.
+# pacman works great
 
 # Set Directory ####
 #It seems like using an R project file automatically sets the working directory 
@@ -28,10 +29,12 @@ writeXStringSet(Protein, "Output/Naja-annulata_protein.fasta", append = FALSE)
 #"Output" folder.
 
 #4. ####
-accession <- read.csv("accession.csv")
+accession <- read.csv("accession.csv", header = FALSE)
+# First value got set as the header name, so if we read it in with header = FALSE
+# it automatically assigns a header name and correctly reads in all the values
 #Reads the .csv file containing the accession numbers of the 5 most similar 
 #sequences obtained through a UniProt BLAST search and saves it as a variable.
-accession
+accession$V1 # adding the $V1 does the same thing as readLines
 #P.S.: The 5th most similar protein found through UniProt BLAST (Q9MLJ3) was 
 #replaced by the 6th most similar (Q9MLK0) as the fetch_alphafold_prediction 
 #function in question #13 returns no information regarding Q9MLJ3. There is no 
@@ -48,11 +51,12 @@ GO <- GetProteinGOInfo(dat)
 GO
 
 #7. ####
-PlotGoInfo(GO)
+PlotGoInfo(GO, directorypath = "PlotGoInfo")
 #Creates a graph from the results of the gene ontology term search. 
 #P.S.: The "Plots" window needs to be significantly enlarged in order for the 
 #plot to look correct.
 #Manually saved to the "Output" folder.
+# adding the directorypath automatically saves the file
 
 #8. ####
 PlotGOAll(GOObj = GO, Top = 10, directorypath = "Output", width = 8, height = 5)
