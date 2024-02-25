@@ -7,6 +7,7 @@ pacman::p_load(pacman, msa, tidyr, dplyr, genepop, PopGenome, BiocManager,
 #It seems like using an R project file automatically sets the working directory 
 #to whatever folder the project file is located in, removing the need to
 #manually set the directory using setwd(). Please correct me if I am wrong. 
+# Yup, you're correct
 
 #1. Import and align your DNA sequences. ####
 Seqs <- readDNAStringSet("Input/sequences.fasta")
@@ -19,6 +20,8 @@ names(Seqs) <- c ("Individual 1", "Individual 2", "Individual 3", "Individual 4"
                   "Individual 13", "Individual 14", "Individual 15", "Individual 16", 
                   "Individual 17", "Individual 18", "Individual 19", "Individual 20")
 #Renames the sequences.
+# renaming not fully necessary, as the old names are just as long
+# there is also the risk of missing up the identifier numbers when adding the new ones manually
 Seqs
 
 Alignment <- msaClustalW(Seqs)
