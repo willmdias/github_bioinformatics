@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_900604845.1/
+HostUrl=https://www.ncbi.nlm.nih.gov/datasets/api/datasets/v2alpha/genome/download?filename=ncbi_dataset.zip&ncbi_phid=null.02
