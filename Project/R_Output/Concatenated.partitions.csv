@@ -1,0 +1,6 @@
+"part","start","stop"
+"ITS_Aligned.fasta","1","716"
+"rpoB_Aligned.fasta","717","1636"
+"trnC_Aligned.fasta","1637","2330"
+"trnE_Aligned.fasta","2331","2932"
+"trnT_Aligned.fasta","2933","3987"
