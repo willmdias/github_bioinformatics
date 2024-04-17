@@ -1,0 +1,20 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Mar 27 17:03:26 2024]
+[!
+>Consensus of 30000 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file: D:\infile.nex.run4.t
+>  Keeping: trees in memory plus trees from file
+>           (file tree numbers 2501 through 10000)
+>  22500 trees originally in memory
+>  7500 trees read from file
+>  7500 trees from file kept
+>  30000 trees now in memory
+>
+>  Time used = 0.50 sec (CPU time = 0.45 sec)
+]
+	tree MajRule = [&R] ((S_asiatica_Morawetz116,S_gesnerioides_EU140575.1)100,(((B_americana_Brett1,B_americana_Brett2,((BuchBlueCrew,BuchBlueYP)52.463,BuchBlueFLHighJan25th2021,BuchBlueFLPolkDec9th2020,(BuchBlueMar2020,(BuchWhiteCrew,BuchWhiteFLHighMar17th2021,BuchWhiteFLHighMar3rd2021,BuchWhiteFLPolk212Q,BuchWhiteMar2020,BuchWhiteYP)97.98)99.69)98.887)100,((B_cryptocephala_EU253603.1,B_foliosa_EU259260.1)100,(B_glabrata_AY911216.1,B_hispida_EU259261.1)100)98.48)100,B_welwitschii_EU259262.1)100)100;
+end;
