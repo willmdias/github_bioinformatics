@@ -1,0 +1,16 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Apr 01 12:21:42 2024]
+[!
+>Consensus of 1000 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file: D:\RAxML_bootstrap.FinalMLBS
+>  Keeping: trees from file (replacing any trees already in memory)
+>  1000 trees read from file
+>
+>  Time used = 5.95 sec (CPU time = 0.00 sec)
+]
+	tree MajRule = [&R] ((S_asiatica_Morawetz116,S_gesnerioides_EU140575.1)100,(((B_americana_Brett1,(B_americana_Brett2,((BuchBlueCrew,BuchBlueYP)69,BuchBlueFLHighJan25th2021,BuchBlueFLPolkDec9th2020,(BuchBlueMar2020,(BuchWhiteCrew,(BuchWhiteFLHighMar17th2021,(BuchWhiteMar2020,BuchWhiteYP)98.9)78,BuchWhiteFLHighMar3rd2021,BuchWhiteFLPolk212Q)65.4)87.4)94.6)77)96,((B_cryptocephala_EU253603.1,B_foliosa_EU259260.1)100,(B_glabrata_AY911216.1,B_hispida_EU259261.1)100)87.5)97.9,B_welwitschii_EU259262.1)100)100;
+end;
