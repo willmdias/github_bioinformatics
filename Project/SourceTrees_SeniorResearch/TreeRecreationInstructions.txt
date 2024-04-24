@@ -1,0 +1,9 @@
+MAXIMUM LIKELIHOOD (Concatenated.fasta.raxml.support.tre):
+1. Reroot tree on branch leading to the S. gesnerioides/S. asiatica clade
+2. Order nodes by "Increasing"
+3. Rotate branch leading to the BuchBlueFLPolk/BuchBlueFLHigh/BuchBlueYP/BuchBlueCrew clade
+
+BAYESIAN:
+1. Reroot tree on branch leading to the S. gesnerioides/S. asiatica clade
+2. Order nodes by "Increasing"
+3. Transform branches -> "equal"
